@@ -7,7 +7,7 @@ use std::path::{Path, PathBuf};
 use std::process::Command;
 
 fn main() -> anyhow::Result<()> {
-    check_cxx17_support()?;
+    // check_cxx17_support()?;
 
     let output_dir = std::env::var("OUT_DIR")?;
     let output_dir = Path::new(&output_dir);
